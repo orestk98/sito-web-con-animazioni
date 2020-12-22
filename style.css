@@ -213,7 +213,7 @@ padding: 50px;}
   display: flex;
   padding: 100px 0;
   background: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
-  url('./sfondo.png') no-repeat center center;
+  url('./sfondo-min.PNG') no-repeat center center;
   background-size: cover;
 }
 .bg-cover__text{
