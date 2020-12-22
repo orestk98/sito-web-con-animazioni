@@ -19,8 +19,8 @@
       <img src="./logo.png" alt="">
     </div>
     <ul class="menu">
-      <li><a href="">Home</a></li>
-      <li><a href="">SignIn</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="single.html">Single</a></li>
       <li><a href="">Contact</a></li>
     </ul>
     <div class="cta">
@@ -35,18 +35,21 @@
 
 
   <div class="hero">
-    <div class="hero__content">
+    <div class="hero__content reveal">
       <p class="intro-text">Intro Text</p>
       <h1 class="big-text">Titolo della mia pagina web</h1>
       <a href="" class="button">Discover More</a>
     </div>
+    <video autoplay muted loop id="video-back">
+      <source src="video-back.mp4" type="video/mp4">
+    </video>
   </div>
 
 <div class="poster mt-3">
-  <div class="poster__img">
+  <div class="poster__img reveal">
     <img src="sfondo.png" alt="">
   </div>
-  <div class="poster__content">
+  <div class="poster__content reveal">
     <h3 class="big-text">Titolo del mio poster</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     <a href="" class="button">Call to action</a>
@@ -54,11 +57,11 @@
 </div>
 
 
-<div class="bg-cover">
-  <div class="bg-cover__title">
+<div class="bg-cover mt-3">
+  <div class="bg-cover__title reveal">
     <h3 class="big-text tw">Titolo del mio blocco cover</h3>
   </div>
-  <div class="bg-cover__text">
+  <div class="bg-cover__text reveal">
     <h4 class="normal-text tw">Titolo del mio nuovo paragrafo</h4>
     <p class="tw">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
@@ -74,41 +77,78 @@
 
 
 <div class="grid mt-3">
-  <div class="col">
+  <div class="col reveal">
     <h3 class="big-text">
       Lorem ipsum <br/> sia maet </h3>
   </div>
-  <div class="col">
-    <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <div class="col reveal">
+    <p class="mt-2 mt-sma-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
 </div>
 
 
 <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-  <div class="carousel-cell">Text</div>
-  <div class="carousel-cell">Text</div>
-  <div class="carousel-cell">Text</div>
-  <div class="carousel-cell">Text</div>
-  <div class="carousel-cell">Text</div>
-  <div class="carousel-cell">Text</div>
+  <div class="carousel-cell">
+   <div class="carousel-cell__content zoom">
+     Text
+   </div>
+ </div>
+   <div class="carousel-cell">
+    <div class="carousel-cell__content zoom">
+      Text
+    </div>
+  </div>
+  <div class="carousel-cell">
+    <div class="carousel-cell__content zoom">
+      Text
+    </div>
+  </div>
+  <div class="carousel-cell">
+    <div class="carousel-cell__content zoom">
+      Text
+    </div>
+  </div>
+  <div class="carousel-cell">
+    <div class="carousel-cell__content zoom">
+      Text
+    </div>
+  </div>
+  <div class="carousel-cell">
+    <div class="carousel-cell__content ">
+      Text
+    </div>
+  </div>
+
+</div>
+
+
+<div class="poster mt-3">
+  <div class="poster__content reveal">
+    <h3 class="big-text">Titolo del mio poster</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <a href="" class="button">Call to action</a>
+  </div>
+  <div class="poster__img reveal">
+    <img src="sfondo.png" alt="">
+  </div>
 </div>
 
 
 <div class="panel-blue mt-3">
  <div class="grid">
   <div class="col panel-blue__dots">
-    <div class="dot">Text</div>
-    <div class="dot">Text</div>
-    <div class="dot">Text</div>
-    <div class="dot">Text</div>
+    <div class="dot zoom">Text</div>
+    <div class="dot zoom">Text</div>
+    <div class="dot zoom">Text</div>
+    <div class="dot zoom">Text</div>
   </div>
   <div class="col panel-blue__text">
     <div class="grid">
-      <div class="col">
+      <div class="col reveal">
         <h3 class="big-text tw">Lorem ipsum</h3>
       </div>
-      <div class="col">
-        <p class="tw mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <div class="col reveal">
+        <p class="tw mt-2 mt-sma-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
     </div>
   </div>
@@ -119,19 +159,19 @@
 
 <footer class="footer">
  <div class="grid">
-  <div class="col">
+  <div class="col reveal">
     <h4 class="normal-text tw">Lorem ipsum</h4>
     <p>Lorem ipsum dos ata sm</p>
   </div>
-  <div class="col">
+  <div class="col reveal">
     <h4 class="normal-text tw">Lorem ipsum</h4>
     <p>Lorem ipsum dos ata sm</p>
   </div>
-  <div class="col">
+  <div class="col reveal">
     <h4 class="normal-text tw">Lorem ipsum</h4>
     <p>Lorem ipsum dos ata sm</p>
   </div>
-  <div class="col">
+  <div class="col reveal">
     <h4 class="normal-text tw">Lorem ipsum</h4>
     <p>Lorem ipsum dos ata sm</p>
   </div>
@@ -145,6 +185,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js" integrity="sha512-Nx/M3T/fWprNarYOrnl+gfWZ25YlZtSNmhjHeC0+2gCtyAdDFXqaORJBj1dC427zt3z/HwkUpPX+cxzonjUgrA==" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
   <script>
     $(document).ready(function() {
       /* Open Panel */
@@ -152,7 +194,12 @@
         $(".menu").toggleClass("menu--open");
       });
     });
+
+    ScrollReveal().reveal('.reveal', {distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600});
+    ScrollReveal().reveal('.zoom', { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false});
+
   </script>
+
 </body>
 
 </html>
