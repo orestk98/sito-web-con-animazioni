@@ -127,7 +127,7 @@ z-index: 1;
   width: 100%;
   align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.9)),
-  url('./sfondo.png') no-repeat center center;
+  url('./sfondo-min.PNG') no-repeat center center;
   background-size: cover;
   overflow: hidden;
 }
